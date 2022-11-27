@@ -2,7 +2,7 @@ import React from 'react'
 
 const Jumbotron = () => {
   return (
-        <div style={{padding:"2%"}}>
+        
         <div className="jumbotron jumbotron-fluid mb-2 bg-light text-black">
             <div className="container">
                 <h1 className="display-4">A WARM WELLCOME!</h1>
@@ -14,7 +14,6 @@ const Jumbotron = () => {
                 </p>
                 <a style={{marginBottom:"2%"}} className="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
             </div>
-        </div>
         </div>
   )
 }

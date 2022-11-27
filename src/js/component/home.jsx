@@ -6,9 +6,10 @@ import Container from "../components/Container.jsx";
 const Home = () => {
 	return (
 		<>
-		<Navbar/>
-		<Container/>
-		<Footer/>
+			
+			<Navbar/>
+			<Container/>
+			<Footer/>
 		</>
 	);
 };
