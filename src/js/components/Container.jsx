@@ -5,24 +5,26 @@ import Card from './Card.jsx'
 const Container = () => {
   return (
     <>
-      <div style={{padding:"2%"}}>
+      <div className='container-lg'>
+      <div className="row justify-content-md-center">  
         <Jumbotron/>
 
         <div clasName="container-fluid">
           <div className="row justify-content-md-center">  
           
-              <div className="col">
+              <div className="col" style={{marginTop:"2%"}}>
                 <Card/>
               </div>
-              <div className="col">
+              <div className="col" style={{marginTop:"2%"}}>
                 <Card/>
               </div>
-              <div className="col">
+              <div className="col" style={{marginTop:"2%"}}>
                 <Card/>
               </div>
-              <div className="col">
+              <div className="col" style={{marginTop:"2%"}}>
                 <Card/>
               </div>
+            </div>
             </div>
           </div>
       </div>
